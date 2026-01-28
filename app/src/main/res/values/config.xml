@@ -80,14 +80,8 @@
              </string-array>
     -->
     <string-array name="config_logicalZoomRatios">
-    <!-- Camera ID 0 - Likely Main Camera -->
-    <item>0</item> <item>1.0</item> <item>1.0</item>
-
-    <!-- Camera ID 1 - Maybe Ultra-wide -->
-    <item>1</item> <item>0.5</item> <item>0.5</item>
-
-    <!-- Camera ID 2 - Telephoto or Secondary Zoom -->
-    <item>2</item> <item>2.0</item> <item>2.0</item>
+        <item>0</item> <item>0.7</item> <item>0.67044306</item>
+        <item>0</item> <item>2.0</item> <item>2.0</item>
     </string-array>
 
     <!-- Whether we should use high resolution output size or not.
