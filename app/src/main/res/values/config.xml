@@ -5,7 +5,7 @@
 -->
 <resources>
     <!-- Enable auxiliary cameras selector. -->
-    <bool name="config_enableAuxCameras">false</bool>
+    <bool name="config_enableAuxCameras">true</bool>
 
     <!-- List of ID of auxiliary cameras that must be ignored by the app. -->
     <string-array name="config_ignoredAuxCameraIds">
@@ -18,7 +18,7 @@
          one or more aux cameras as a standalone camera device.
          Note that you will probably need to add
          more camera IDs to ignoreCameraIds. -->
-    <bool name="config_ignoreLogicalAuxCameras">true</bool>
+    <bool name="config_ignoreLogicalAuxCameras">false</bool>
 
     <!-- List of ID of camera devices that doesn't advertise
          REQUEST_AVAILABLE_CAPABILITIES_BACKWARD_COMPATIBLE yet are
@@ -78,7 +78,8 @@
              </string-array>
     -->
     <string-array name="config_logicalZoomRatios">
-        <!-- No configuration by default. -->
+        <item>0</item> <item>0.7</item> <item>0.67044306</item>
+        <item>0</item> <item>2.0</item> <item>2.0</item>
     </string-array>
 
     <!-- Whether we should use high resolution output size or not.
